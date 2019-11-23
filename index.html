@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js"></script>
+    <title>Muflonex - Portfolio</title>
+  </head>
+  <body>
+    <header class="centered wrap">
+      <div class="brand centered">
+        <img class="logo" src="img/muflonex-logo.png" />
+        <h1 class="site-name"><a href="./index.html">Muflonex</a></h1>
+      </div>
+      <nav id="primary-menu" class="centered">
+        <ul class="menu centered">
+          <li class="menu-item">
+            <a href="#quien-soy" class="btn">Quién soy</a>
+          </li>
+          <li class="menu-item">
+            <a href="#proyectos" class="btn">Proyectos</a>
+          </li>
+          <li class="menu-item">
+            <a href="#muestras" class="btn">Muestras</a>
+          </li>
+          <li class="menu-item">
+            <a href="#curriculum" class="btn">Curriculum</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contacto" class="btn">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <nav id="mobile-menu">
+        <ul class="menu row">
+          <li class="menu-item"><a href="#quien-soy">Quién soy</a></li>
+          <li class="menu-item"><a href="#proyectos">Proyectos</a></li>
+          <li class="menu-item"><a href="#muestras">Muestras</a></li>
+          <li class="menu-item"><a href="#curriculum">Curriculum</a></li>
+          <li class="menu-item"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="navbar-toggle" type="button"></button>
+    </header>
+    <div class="container">
+      <main>
+        <section id="quien-soy">
+          <h2>Quién soy</h2>
+          <div class="row centered">
+            <article class="col space-between">
+              <blockquote class="col centered">
+                <p>"El mejor maestro, el fracaso es."</p>
+                <cite>Maestro Yoda</cite>
+              </blockquote>
+              <p>
+                Hola, soy <strong>Mikolaj Bernecki</strong>. Desarrollador de
+                Java Script y Front End. Alumno de Ironhack en Madrid,
+                estudiante de DAW en Instituto Tecnológico Telefónica.
+              </p>
+            </article>
+            <img src="img/me.png" alt="Muflonex">
+          </div>
+        </section>
+        <section id="proyectos">
+          <h2 class="centered">Mis proyectos</h2>
+          <article class="proyecto">
+            <img class="icon" src="img/antonio-ico.png" />
+            <img src="img/antonio-sm.jpg" alt="Antonio Posadas" class="cover" />
+            <h3 class="centered">Antonio Posadas</h3>
+          </article>
+          <article class="proyecto">
+            <img class="icon" src="img/travelcro-ico.png" />
+            <img src="img/travelcro-sm.jpg" alt="Travelcro" class="cover" />
+            <h3 class="centered">Travelcro</h3>
+          </article>
+          <article class="proyecto">
+            <img class="icon" src="img/bbva-ico.png" />
+            <img
+              src="img/bbva-sm.jpg"
+              alt="BBVA Asset Management"
+              class="cover"
+            />
+            <h3 class="centered">BBVA Asset Management</h3>
+          </article>
+        </section>
+        <section id="muestras">
+          <h2>Muestras</h2>
+          <div class="row space-between wrap">
+            <div class="col space-between">
+              <article>
+                <h3>Github</h3>
+                <ul>
+                  <li><a href="https://muflonex.github.io/mars-rover-v2/" target="_blank">Mars rover</a></li>
+                  <li><a href="https://github.com/Iron-Service/Iron-Services" target="_blank">Iron services</a></li>
+                  <li><a href="https://muflonex.github.io/Gnome-adventure-game/" target="_blank">Gnome adventure</a></li>
+                  <li><a href="https://github.com/LosGuiris/proyectoAPI" target="_blank">NutriApp</a></li>
+                </ul>
+              </article>
+              <article>
+                <h3>Repl.it</h3>
+                  <ul>
+                    <li><a href="https://repl.it/@muflonex/Carousel-con-jQuery" target="_blank">jQuery Carousel</a></li>
+                  </ul>
+              </article>
+            </div>
+            <div class="col space-between">
+              <article>
+                <h3>Codewars</h3>
+                <ul>
+                  <li><a href="https://www.codewars.com/users/muflonex/completed_solutions" target="_blank">Solutions</a></li>
+                </ul>
+              </article>
+              <article>
+                <h3>Codepen</h3>
+                <ul>
+                  <li><a href="https://codepen.io/muflonex/pen/mXOrEY" target="_blank">Portfolio</a></li>
+                  <li><a href="https://codepen.io/muflonex/pen/JLOaEK" target="_blank">jQuery list</a></li>
+                  <li><a href="https://codepen.io/muflonex/pen/PooZjyN" target="_blank">Bootstrap recipes</a></li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section id="curriculum">
+          <h2>Curriculum</h2>
+          <article class="col">
+            <h3><span>Mikolaj</span>Bernecki</h3>
+            <div class="method">
+              <p><dfn>fullName</dfn><q>Mikolaj Bernecki</q></p>
+              <p><dfn>initTimestamp</dfn>397663320</p>
+              <p><dfn>eMail</dfn><q>m.bernecki@gmail.com</q></p>
+            </div>
+            <div class="method">
+              <h4>workExperience</h4>
+              <span>return</span>
+              <p><dfn>2018-12 - now</dfn> <q>Junior Programmer @ Innoqa</q></p>
+              <p><dfn>2011-08 - 2018-01</dfn> <q>Loc Tester @ EA Games</q></p>
+            </div>
+            <div class="method">
+              <h4>education</h4>
+              <span>return</span>
+              <p><dfn>2018-now</dfn><q>Instituto Tecnológico Telefónica, CFGS DAW</q></p>
+              <p><dfn>2018-3 - 2018-6</dfn><q>Ironhack, Bootcamp Full Stack</q></p>
+              <p><dfn>2015-3 - 2015-11</dfn><q>Grupo Colón, Certificado de Profesión. DAW</q></p>
+            </div>
+            <div class="method">
+              <h4>skills</h4>
+              <span>return</span>
+              <ul class="row wrap">
+                <li>HTML5/CSS3/JS</li>
+                <li>Angular</li>
+                <li>Polymer</li>
+                <li>MongoDB</li>
+                <li>jQuery</li>
+                <li>nodeJS</li>
+                <li>Bootstrap/Material Design</li>
+                <li>Sass</li>
+                <li>Express</li>
+                <li>npm/yarn/bower</li>
+                <li>GIT</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Wordpress</li>
+                <li>Java</li>
+                <li>English</li>
+                <li>Spanish</li>
+                <li>Polish</li>
+                <li>Russian</li>
+                <li>French</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <div class="row space-between wrap">
+          	<div class="col">
+              <table>
+              	  <thead>
+              	    <tr>
+              	      <th colspan="2">Encuéntrame en</th>
+              	    </tr>
+              	  </thead>
+              	  <tbody>
+              	      <tr>
+              	        <td>..</td>
+              	        <td>..</td>
+              	      </tr>
+              	    <tr>
+              	      <td><a href="https://github.com/muflonex">github</a></td>
+              	      <td><a href="https://codepen.io/muflonex">Codepen</a></td>
+              	    </tr>
+              	    <tr>
+              	      <td><a href="https://repl.it/@muflonex">repl.it</a></td>
+              	      <td><a href="https://www.linkedin.com/in/mikolajbernecki/">LinkedIn</a></td>
+              	    </tr>
+              	    <tr>
+              	      <td><a href="https://www.codewars.com/users/muflonex/">Codewars</a></td>
+              	      <td></td>
+              	    </tr>
+              	  </tbody>
+              	  <tfoot><td colspan="2"></td></tfoot>
+              	</table>
+              	<a href="" class="btn contacto">Esríbeme</a>
+            </div>
+            <form action="mailto:muflonex@gmail.com" method="POST" enctype="text/plain">
+              <fieldset id="formulario-contacto" class="col">
+                <legend>Contacto</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <label for="mensaje">Tu mensaje</label>
+                <textarea name="mensaje" id="Mensaje" cols="30" placeholder="Escribe algo" rows="10"></textarea>
+                <input type="submit" class="btn" value="Enviar">
+              </fieldset>
+            </form>
+          </div>
+        </section>
+      </main>
+      <aside id="sider-main">
+        <div class="sider-images">
+          <img src="img/antonio.jpg" alt="Antonio Posadas" />
+          <img src="img/travelcro.jpg" alt="TravelCro" />
+          <img src="img/bbva.jpg" alt="BBVA Asset Management" />
+        </div>
+        <div class="sider-content">
+          <button id="sider-close">X</button>
+          <article>
+            <h2>Antonio Posadas</h2>
+            <h3>[HTML] [CSS] [JS]</h3>
+            <p>Rediseño de flujo del contenido y de la tienda.</p>
+            <img src="img/antonio.jpg" alt="Antonio Posadas" />
+            <a href="http://www.antonioposadas.com" target="_blank" class="btn">Visitar</a>
+          </article>
+          <article>
+            <h2>TravelCro</h2>
+            <h3>[HTML] [CSS] [JS] [PHP] [MySQL] [Wordpress]</h3>
+            <p>Rediseño de la página dentro de una plantilla anterior.</p>
+            <img src="img/travelcro.jpg" alt="TravelCro" />
+            <a href="http://www.travelcro.com" target="_blank" class="btn">Visitar</a>
+          </article>
+          <article>
+            <h2>BBVA Asset Management</h2>
+            <h3>
+              [HTML] [CSS] [JS] [jQuery] [Wordpress] [PHP] [UI] [Apache Lucene]
+            </h3>
+            <p>
+              Creación del tema, widgets propios, extensión de funcionalidades
+              de Wordpress (catálogo de productos), enlazamiento con servicios
+              externos, generación de estructuras JSON para compilación a
+              versión estática del sitio. Consultas a Apache Lucene en Amazon
+              S3. Interpretación de diseño UI provisto.
+            </p>
+            <img src="img/bbva.jpg" alt="BBVA Asset Management" />
+            <a href="https://www.bbvaassetmanagement.com" target="_blank" class="btn"
+              >Visitar</a
+            >
+          </article>
+        </div>
+      </aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>
