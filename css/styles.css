@@ -99,6 +99,7 @@ input, textarea {
   outline-color: var(--norton-yellow);
   font-weight: 700;
   width: 100%;
+  min-width: 360px;
   flex:1;
 }
 input::placeholder, textarea::placeholder {
