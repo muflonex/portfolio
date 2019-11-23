@@ -754,13 +754,14 @@ section#curriculum li:not(:last-of-type)::after {
   }
   header #mobile-menu ul.menu li {
     flex: 1 0;
+    padding: 16px 0;
   }
   header #primary-menu {
     display: none;
   }
   header ul.menu li:before {
-    top: 0;
-    left: -10px;
+    left: -16px;
+    top: 16px;
   }
   section#quien-soy .row{
     flex-wrap: wrap;
@@ -887,37 +888,38 @@ section#curriculum li:not(:last-of-type)::after {
   section#quien-soy blockquote cite::after {
     padding-left: 4px;
   }
-  #primary-menu {
+  nav#primary-menu {
     display: none;
   }
-  #mobile-menu {
+  nav#mobile-menu {
     position: fixed;
     bottom: 0;
     width: 100%;
     background: var(--norton-grey);
     transform: translateY(100%);
   }
-  #mobile-menu.open {
+  nav#mobile-menu.open {
     transform: translateY(39%);
     transition: all 0.3s ease-out;
   }
-  #mobile-menu ul.menu {
+  nav#mobile-menu ul.menu {
     flex-direction: column;
     border: double 5px black;
     margin: 10px;
   }
-  #mobile-menu li {
+  nav#mobile-menu ul.menu li {
     margin-left: 0;
+    padding: 0;
   }
-  #mobile-menu li:before {
+  nav#mobile-menu li:before {
     content: none;
   }
-  #mobile-menu li a {
+  nav#mobile-menu li a {
     font-size: var(--mobile-menu-item);
     line-height: 64px;
     color: var(--norton-black);
   }
-  #mobile-menu li:focus a {
+  nav#mobile-menu li:focus a {
     color: var(--norton-yellow);
     transition: color 0.3s ease-in-out;
   }

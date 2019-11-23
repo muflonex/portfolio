@@ -19,7 +19,10 @@ $(() => {
     toggle(SIDER);
     resetShown();
   });
-  MOBILE_BUTTON.click(e => toggle(MOBILE_MENU));
+  MOBILE_BUTTON.click(e => {
+    toggle(MOBILE_BUTTON);
+    toggle(MOBILE_MENU)
+  });
   PROJECTS.click(function(e) {
     toggle(SIDER);
     showProject($(this).index());
