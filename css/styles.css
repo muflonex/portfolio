@@ -598,7 +598,7 @@ section#contacto #formulario-contacto.open {
   background-size: cover;
   border: none;
 }
-.navbar-toggle.close {
+.navbar-toggle.open {
   background-image: url(../img/close.svg);
   background-size: 24px;
   background-repeat: no-repeat;
@@ -705,7 +705,7 @@ section#curriculum li:not(:last-of-type)::after {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 776px) {
+@media (max-width: 768px) {
   :root {
     /* TAMAÑOS DE FUENTES */
     --site-title: 3rem;
@@ -758,8 +758,9 @@ section#curriculum li:not(:last-of-type)::after {
   header #primary-menu {
     display: none;
   }
-  #primary-menu ul.menu {
-    display: none;
+  header ul.menu li:before {
+    top: 0;
+    left: -10px;
   }
   section#quien-soy .row{
     flex-wrap: wrap;
