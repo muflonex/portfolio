@@ -71,11 +71,15 @@ const resetShown = () => $(".show").removeClass("show");
 const toggle = menu => $(menu).toggleClass("open");
 
 const getTo = sectionAnchorID => {
+  updateWindowHash( sectionAnchorID );
   let sectionOffset = $(sectionAnchorID).offset().top;
   let top = sectionOffset !== 0 ? sectionOffset : window.pageYOffset;
   window.scrollTo({ top: top, behavior: "smooth" });
 };
 
+const updateWindowHash = id => {
+  window.location.hash = 'section=' + id.replace('#', '');
+}
 const showProject = index => {
   const PROJECT_IN_SIDER = $(`.sider-content article:nth-of-type(${index})`);
   const PROJECT_IMAGE = $(`.sider-images img:nth-of-type(${index})`);
